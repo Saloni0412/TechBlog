@@ -10,13 +10,15 @@
     "sequelize": "^6.32.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js --watch"
   },
   "name": "techblog",
   "description": "",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Saloni0412/TechBlog.git"
