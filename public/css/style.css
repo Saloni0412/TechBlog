@@ -1,0 +1,81 @@
+body {
+    margin: 0%;
+    background-color: rgb(253, 224, 246);
+}
+
+header {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: rgb(51, 44, 63);
+    margin: 0px;
+    height: 150px;
+}
+
+ul {
+    padding-right: 63px;
+    font-size: 25px;
+}
+
+header ul li {
+    display: inline-block;
+    color: aliceblue;
+    padding: 5px 30px;
+
+}
+h1 {
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+    box-shadow: 8px 8px 5px #6e6767;
+    background-color: rgb(253, 224, 246);
+    display: inline;
+    
+}
+
+.test {
+width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgb(51, 44, 63);
+    margin: 30px 30px 0px 30px;
+    padding: 10px 10px 0px 10px;
+    background-color: rgb(51, 44, 63);
+    color: aliceblue;;
+}
+.text {
+    background-color: rgb(253, 224, 246);
+}
+
+h3 {
+    margin: 0px 30px 30px 30px;
+    border: 3px solid #000000;
+    padding: 10px 10px 20px 10px;
+}
+
+.button {
+    border-radius: 10px;
+    
+}
+.email {
+    margin: 20px 300px 20px 40px;
+}
+
+.login {
+    border: 3px solid #000000;
+    margin: 20px 100px 20px 40px;
+    padding: 0px ;
+}
+
+.signup {
+    display: block;
+    padding: 0px 400px;
+    background-color: rgb(197, 195, 197);
+    color: black;
+}
